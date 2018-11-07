@@ -17,4 +17,7 @@ export class TabsPage {
   constructor() {
 
   }
+  ionViewDidLoad() {
+    console.log('trying routes for all tabs pages... ');
+  }
 }

@@ -20,6 +20,7 @@ import { ProfilePage} from "../pages/profile/profile";
 import { ResisterPage} from "../pages/resister/resister";
 import { LoginPage} from "../pages/login/login";
 import { CreateprofilePage} from "../pages/createprofile/createprofile";
+import {WelcomePage} from "../pages/welcome/welcome";
 
 
 const config = {
@@ -43,6 +44,7 @@ const config = {
     ResisterPage,
     LoginPage,
     CreateprofilePage,
+    WelcomePage,
     TabsPage
   ],
   imports: [
@@ -63,6 +65,7 @@ const config = {
     ResisterPage,
     LoginPage,
     CreateprofilePage,
+    WelcomePage,
     TabsPage
   ],
   providers: [

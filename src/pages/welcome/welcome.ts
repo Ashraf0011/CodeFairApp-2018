@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { TabsPage} from "../tabs/tabs";
+import {LoginPage} from "../login/login";
+import {ResisterPage} from "../resister/resister";
 
 /**
  * Generated class for the WelcomePage page.
@@ -20,6 +23,14 @@ export class WelcomePage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad WelcomePage');
+  }
+  loginPage(){
+    this.navCtrl.setRoot(LoginPage);
+    console.log("button clicked, trying tabs route to login page...");
+  }
+  resisterPage(){
+    this.navCtrl.setRoot(ResisterPage);
+    console.log("button clicked, trying tabs route to resister page...");
   }
 
 }
